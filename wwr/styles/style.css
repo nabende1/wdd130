@@ -14,7 +14,6 @@ nav a{
 }
 .button-box{
     text-align: center;
-    
 }
 main section{
     text-align: center;
@@ -80,4 +79,37 @@ footer p a:hover{
 }
 #hero-img{
     width: 100%;
+}
+h2{
+    margin: 0;
+}
+.msg h2{
+    font-family: Henny Penny, 'Times New Roman', Times, serif;
+}
+.home-title{
+    font-family: Henny Penny, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 35px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #11261A;
+}
+main section img{
+    box-sizing: border-box;
 }
