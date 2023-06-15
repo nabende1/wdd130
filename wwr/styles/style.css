@@ -182,6 +182,36 @@ footer .social img{
 main section img{
     box-sizing: border-box;
 }
+
+#rivers_heading{
+    font-family: Henny Penny, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+    color: #11261A;
+    width: 100%;
+    text-align: center;
+}
+#salmon-heading,#gray-heading,#grand-heading{
+    font-family: Henny Penny, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.river-section{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.river-section p{
+    margin: 50px;
+}
+#salmon-img, #grand-img, #gray-img{
+    width: 940px;
+    height: 274px;
+    border: 2px solid #11261A;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
