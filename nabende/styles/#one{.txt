@@ -1,0 +1,19 @@
+#one{
+    grid-column: 1/2;
+    width: 80%;
+    margin: 10px;
+}
+#two{
+    grid-column: 2/3;
+    width: 80%;
+    margin: 10px;
+}
+#three{
+    grid-column: 3/4;
+    width: 80%;
+    margin: 10px;
+}
+#four{
+    grid-column: 4/5;
+    width: 80%;
+}

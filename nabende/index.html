@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nabende Portfolio</title>
+    <link type="text/css" href="styles/style.css" rel="stylesheet">
 </head>
 <body>
     <div id="content">
@@ -14,111 +15,119 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="projects.html">Projects</a>
-                <a href="about.html">About Me</a>
+                <a href="about.html">About</a>
             </nav>
         </header>
-        <main>
-            <div>
-                <section>
-                <h1>I'm</h1>
-                <h2>Brian Nabende</h2>
-                <p> I am a passionate and skilled web developer. 
-                    With a deep understanding of front-end and back-end technologies, I specialize in creating engaging and 
-                    user-friendly websites that deliver exceptional user experiences.
-                </p>
+        <div id="first">
+                <section id="intro">
+                    <h1>I'm</h1>
+                    <h2>Brian Nabende</h2>
+                    <div id="line"></div>
+                    <p> I am a passionate and 
+                        skilled web developer. 
+                        With a deep understanding of front-end 
+                        and back-end technologies, 
+                        I specialize in creating engaging and 
+                        user-friendly websites that deliver 
+                        exceptional user experiences.
                 </section>
-                <section>
-                    <img src="images/brian.png" alt="brian">
-                </section>
-                <section>
+                <div id="picture">
+                    <img id="pic" src="images/brian.png" alt="brian">
+                </div>
+                <section id="side1">
                     <h3>Services</h3>
                     <p>
                         Let us build quality products in programming and design with my services
                     </p>
-                    <h5>learn more</h5>
-                    <img src="images/fb-icon.png" alt="fb icon">
-                    <img src="images/twitter.png" alt="twitter icon">
-                    <img src="images/messenger.png" alt="messenger icon">
-                    <img src="images/instagram.png" alt="insta icon">
+                    <h5 id="more"><a href="projects.html">learn more <span class="arrow">&#8594;</span></a></h5>
+                    <a href="#"><img class="icons1" src="images/fb-icon.png" alt="fb-icon"></a>
+                    <a href="#"><img class="icons1" src="images/twitter.png" alt="twitter-icon"></a>
+                    <a href="#"><img class="icons1" src="images/messenger.png" alt="messenger-icon"></a>
+                    <a href="#"><img class="icons1" src="images/instagram.png" alt="insta-icon"></a>
                 </section>
+        </div>
+
+        <div id="middle">
+                <a class="middle-icons" href="#"><img class="middle-icons" id="one" src="images/facebook-icon.png" alt="facebook"></a>
+                <a class="middle-icons" href="#"><img class="middle-icons" id="two" src="images/twitter-logo.png" alt="twitter"></a>
+                <a class="middle-icons" href="#"><img class="middle-icons" id="three" src="images/linkedin-logo.png" alt="linked in"></a>
+                <a class="middle-icons" href="#"><img class="middle-icons" id="four" src="images/youtube.png" alt="youtube"></a>
+        </div>
+        <main class="home-grid">
+            <section id="left1">
+                <h1>What i can do for your needs</h1>
+                <p>I'm excited to create innovative web solutions and contribute to the success of your next project!</p>
+            </section>
+            <section id="left2">
+                <h2 class="head2" >251+</h2>
+                <p>Projects completed</p>
+
+                <h2 class="head2">100+</h2>
+                <p>Community Networks</p>
+            </section>  
+            <section id="left3">
+                <h2 class="head2">30+</h2>
+                <p class="test1">Remote Contracts</p>
+
+                <h2 class="head2">10+</h2>
+                <p>Years of experience</p>
+            </section> 
+            
+            <div id="right1">
+                <img class="right" src="images/ui-ux-dev.jpg" alt="ux image">
             </div>
-            <div>
-                <img src="images/facebook icon.png" alt="facebook">
-                <img src="images/twitter-logo.png" alt="twitter">
-                <img src="images/linkedin-logo.png" alt="linked in">
-                <img src="images/youtube.png" alt="youtube">
+
+            <section id="right2">
+                <h4>UI/UX Design <a href="projects.html"><span class="arrow">&#8594;</span></a></h4>
+                <p>220 Projects</p>
+            </section>
+
+            <div id="right3">
+                <img class="right" src="images/front-end-dev.jpg" alt="front end image">
             </div>
-            <div>
-                <section>
-                    <h1>What i can do for your needs</h1>
-                    <p>
-                        I'm excited to create innovative web solutions and contribute to the success of your next project!
-                    </p>
-                    <section>
-                        <h2>
-                            251+
-                        </h2>
-                        <p>Projects completed</p>
-                        <h2>
-                            100+
-                        </h2>
-                        <p>Community Networks</p>
-                        <h2>
-                            30+
-                        </h2>
-                        <p>Remote Contracts</p>
-                        <h2>
-                            10+
-                        </h2>
-                        <p>Years of experience</p>
-                        <div>
-                            <section>
-                                <img src="images/ui ux dev.jpg" alt="ux image">
-                                <h4>UI/UX Design</h4>
-                                <p>220 Projects</p>
-                            </section>
-                            <section>
-                                <img src="images/front end dev.jpg" alt="front end image">
-                                <h4>Front-end projects</h4>
-                                <p>100 projects</p>
-                            </section>
-                            <section>
-                               <img src="images/mobile app dev.jpg" alt="mobile app image">
-                                <h4>Mobile App Development</h4>
-                                <p>50 projects</p>
-                            </section>
-                        </div>
-                        <div>
-                            <div>
-                     <!--          <img src="#" alt="side">  --> 
-                                <h4>UI/UX Design</h4>
-                                <p>create a beatiful and useful UI design for ease of use for application users</p>
-                            </div>
-                            <div>
-                       <!--         <img src="#" alt="side">   --> 
-                                <h4>Mobile Development</h4>
-                                <p>create an app for your own business for a better business performance</p>
-                            </div>
-                            <div>
-                     <!--           <img src="#" alt="side">   --> 
-                                <h4>Web Development</h4>
-                                <p>build a high quality website with the best technology and optimization with search engines</p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
+
+            <section id="right4">
+                <h4>Front-end Development <a href="projects.html"><span class="arrow">&#8594;</span></a></h4>
+                <p>100 projects</p>
+            </section>
+
+            <div id="right5">
+                <img class="right" src="images/mobile-app-dev.jpg" alt="mobile app image">
             </div>
+            
+            <section id="right6">
+                <h4>Mobile App Development<a href="projects.html"><span class="arrow">&#8594;</span></a></h4>
+                <p>50 projects</p>
+            </section>
+            <section id="below">
+                <div class="below" id="below1">
+                    <img class="icons8" src="images/icons8-ux-design-64.png" alt="side"> 
+                    <h4>UI/UX Design</h4>
+                    <p>create a beatiful and useful UI design for ease of use for application users</p>
+                </div>
+                <div class="below" id="below2">
+                    <img class="icons8" src="images/icons8-app-development-99.png" alt="side">
+                    <h4>Mobile Development</h4>
+                    <p>create an app for your own business for a better business performance</p>
+                </div>
+                <div class="below" id="below3">
+                    <img class="icons8" src="images/icons8-web-design-50.png" alt="side"> 
+                    <h4>Web Development</h4>
+                    <p>build a high quality website with the best technology and optimization with search engines</p>
+                </div>
+            </section>
+        
+            <footer>
+                <p>copyright 2023 Brian Nabende</p>
+                <span id="site-plan"><a href="site-plan.html">Site Plan</a></span>
+                <div>
+                   <a href="#"><img class="icons1" src="images/foot-facebook.png" alt="facebook"></a> 
+                   <a href="#"><img class="icons1" src="images/foot-twitter.png" alt="twitter"></a> 
+                   <a href="#"><img class="icons1" src="images/foot-linkedin.png" alt="linked in"></a> 
+                   <a href="#"><img class="icons1" src="images/foot-youtube.png" alt="youtube"></a> 
+                </div>
+            </footer>
         </main>
-        <footer>
-            <p>copyright 2023 Brian Nabende</p>
-            <a href="site-plan.html">Site Plan</a>
-            <div>
-                <img src="images/foot facebook.png" alt="facebook">
-                <img src="images/foot twitter.png" alt="twitter">
-                <img src="images/foot linkedin.png" alt="linked in">
-                <img src="images/foot youtube.png" alt="youtube">
-            </div>
-        </footer>
     </div>
 </body>
 </html>
