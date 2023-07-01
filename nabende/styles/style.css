@@ -62,8 +62,9 @@ nav a{
     font-family: 'New Rocker', cursive;
 }
 #intro p{
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 35px;
+    padding-bottom: 10px;
 }
 #intro #line{
     width: 190px;
@@ -92,8 +93,8 @@ nav a{
     font-family:  'New Rocker', cursive ;
 }
 #side1 p{
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 35px;
 }
 #side1 h5{
     color: #c77dff;
@@ -119,20 +120,20 @@ footer .icons1{
 #middle{
     background-color: #f5ecfd;
     height: 100px;
-    display: flex;
+    width: 100%;
+    display:inline-block;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #6f7364;
-    align-items: center;
+    text-align: center;
 }
-#middle a{
-    border-bottom:2px solid #E0AAFF;
-}
+
 .middle-icons{
-    width: 200px;
-    height: 50px;
-    margin: 0 auto;
-    padding: 3px;
+    border-bottom:2px solid #E0AAFF;
+    width: 20%;
+    height: 50%;
+    margin: 10px;
+    margin-top: 25px;
     border-radius: 8px;
     transition: width 1.5s, height 1s;
 }
@@ -237,7 +238,7 @@ h4{
     margin-left: 5px;
 }
 .right{
-    width: 210px;
+    width: 90%;
     height: 100px;
     padding: 20px;
 }
@@ -281,6 +282,7 @@ h4{
 footer{
     grid-column: 1/11;
     grid-row: 7/10;
+    width: 93%;
     margin-top: 100px;
     background-color: #D0D9D6;
     padding: 25px 50px;
