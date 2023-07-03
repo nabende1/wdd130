@@ -392,8 +392,14 @@ nav a:hover{
     }
     .below{
         width: 100%;
-        padding: 0px;
         padding-top: 10px;
+        margin-left: 0;
+        padding-left: 0;
+        transition: none;
+    }
+    .below:hover {
+        width: 100%;
+        height: 50%;
     }
     #right1 img, #right3 img,  #right5 img{
         width: 80%;
