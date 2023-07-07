@@ -12,6 +12,9 @@ body{
     padding-left: 2%;
     padding-right: 2%;
 }
+header{
+    box-shadow: .5px .5px #c77dff;
+}
 a{
     text-decoration: none;
 }
@@ -331,6 +334,92 @@ footer .icons1:hover{
 nav a:hover{
     color:#c77dff;
 }
+#intro-project{
+    text-align: center;
+}
+
+#p-grid img{
+    width: 25em;
+    height: 10em;
+    float: left; 
+    margin-right: 15px;
+    border: 2px solid #c77dff;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#linep_j{
+    margin-top: 0px;
+    width: 100%;
+    height: 1px;
+
+    box-shadow: 2px 1px 1px #c77dff;
+    margin-bottom: 100px;
+}
+.linep_p{
+    margin-top: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #c77dff;
+}
+#p-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 18px;
+}
+#p-grid h2, #p-grid h1{
+    font-family:  'New Rocker', cursive ;
+    margin-bottom: 20px;
+}
+#p-grid p{
+    line-height: 25px;
+    margin-bottom: 2px;
+}
+#intro-project{
+    grid-column: 1/9;
+    grid-row: 1/3;
+}
+#ecom{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+#port{
+    grid-column: 5/9;
+    grid-row: 3/4;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+#port img{
+    margin-top: 12px;
+}
+#port p{
+    margin-top: 30px;
+}
+#food_app{
+    grid-column: 1/5;
+    grid-row: 4/6;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+#travel-b {
+    grid-column: 5/9;
+    grid-row: 4/6;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+#event {
+    grid-column: 1/5;
+    grid-row: 6/8;
+    margin-right: 30px;
+}
+#R_estate{
+    grid-column: 5/9;
+    grid-row: 6/8; 
+    margin-left: 30px;
+    line-height: 8px;
+}
+
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -364,7 +453,7 @@ nav a:hover{
     }
   }
 @media screen and (max-width: 900px) {
-    #first, .home-grid {
+    #first, .home-grid,#p-grid {
         display: block;
         height: auto;
     }
