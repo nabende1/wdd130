@@ -430,7 +430,7 @@ nav a:hover{
 
   @media screen and (max-width: 800px) {
     .topnav a {
-        font-size: 18;
+        font-size: 18px;
         padding: 14px 20px;
     }
     .logo, #logo_link{
